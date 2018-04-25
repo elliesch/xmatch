@@ -12,8 +12,8 @@ def get_gaia(ra,dec,epochs,radius=5.0):
 	stilts_file = os.path.dirname(__file__)+os.sep+'stilts.sh'
 	
 	#Catalog that will be queried
-	catalog = 'I/337/gaia'#DR1
-  	#catalog = 'I/345/gaia'#DR2
+	#catalog = 'I/337/gaia'#DR1
+  	catalog = 'I/345/gaia2'#DR2
 	
 	#Create a unique ID for temporary files
 	unique_id = str(uuid.uuid4())
