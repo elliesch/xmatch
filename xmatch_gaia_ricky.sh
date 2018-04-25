@@ -23,7 +23,7 @@ RA_CDS_COL_NAME="RA_CDS"
 DEC_CDS_COL_NAME="DEC_CDS"
 
 # match to your target list
-stilts cdsskymatch cdstable=$vcat find='best' ra=RA dec=DEC in=$infile radius=20 out=$tmpfile_initial
+stilts cdsskymatch cdstable=$vcat find='all' ra=RA dec=DEC in=$infile radius=20 out=$tmpfile_initial
 
 # for dr2 change I/377 to I/345
 
