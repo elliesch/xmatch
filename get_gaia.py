@@ -5,7 +5,7 @@ from astropy.io import fits
 from astropy.table import Table
 
 #Query Gaia on CDS with Ricky's STILTS code
-def get_gaia(ra,dec,epochs,radius=5.0,JD_EPOCHS=False):
+def get_gaia(ra,dec,epochs,radius=5.0):
 	
 	#Assume that necessary files are in same directory as this .py code
 	ricky_file = os.path.dirname(__file__)+os.sep+'xmatch_gaia_ricky.sh'
